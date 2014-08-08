@@ -43,6 +43,12 @@ public class GreatestCommonDivisorTest extends TestCase {
     	assertTrue(gcd == 4);
     }
     
+    public void testMyNumbers() {
+    	int gcd = GreatestCommonDivisor.find(6, 8);
+    	assertTrue(gcd == 2);
+    }
+    
+    
     public void testNegative() {
     	int gcd = 0;
     	try {
