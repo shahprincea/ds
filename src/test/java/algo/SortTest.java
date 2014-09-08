@@ -21,6 +21,15 @@ public class SortTest extends TestCase {
 		Selection.sort(input);
 		printArray(input);
 	}
+	
+	public void testMergeSort() {
+
+		System.out.println("Merge sort");
+		int[] input = {9,7,6,3};
+		printArray(input);
+		Merge.sort(input);
+		printArray(input);
+	}
 
 	private void printArray(int[] input) {
 		for(int element : input) {
