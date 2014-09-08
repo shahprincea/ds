@@ -7,7 +7,7 @@ public class InsertionTest extends TestCase {
 	public void testSort() {
 		int[] input = {9,7,6,3};
 		printArray(input);
-		Insertion.sort(input);
+		Selection.sort(input);
 		printArray(input);
 	}
 

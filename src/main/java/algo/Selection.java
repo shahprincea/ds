@@ -18,7 +18,7 @@ package algo;
  * @author Prince
  *
  */
-public class Insertion {
+public class Selection {
 
 	public static void sort(int[] input) {
 		
