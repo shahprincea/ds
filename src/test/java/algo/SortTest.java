@@ -4,7 +4,18 @@ import junit.framework.TestCase;
 
 public class SortTest extends TestCase {
 
-	public void testSort() {
+	public void testInsertionSort() {
+		
+		System.out.println("Insertion sort");
+		int[] input = {9,7,6,3};
+		printArray(input);
+		Insertion.sort(input);
+		printArray(input);
+	}
+	
+	public void testSelectionSort() {
+
+		System.out.println("Selection sort");
 		int[] input = {9,7,6,3};
 		printArray(input);
 		Selection.sort(input);
