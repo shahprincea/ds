@@ -1,7 +1,7 @@
 package algo;
 
 /**
- * Insertion sort implementation to sort elements 
+ * Selection sort implementation to sort elements 
  * 
  * Algo:
  * Find the smallest element & exchange it with first element
