@@ -4,7 +4,7 @@ package algo;
  * Sort the element using insertion sort
  * 
  * Algo:
- * Compare each elements all it's right most elements.
+ * Compare each elements all it's Left most elements.
  * If they are small perfrom exchange.
  * 
  * Note: 
