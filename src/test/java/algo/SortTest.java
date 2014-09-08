@@ -2,7 +2,7 @@ package algo;
 
 import junit.framework.TestCase;
 
-public class InsertionTest extends TestCase {
+public class SortTest extends TestCase {
 
 	public void testSort() {
 		int[] input = {9,7,6,3};
