@@ -16,7 +16,7 @@ public class ResizingArrayStackTest extends TestCase {
 	
 	
 	public void testFixedCapacityStack() {
-		Stack<Integer> stack = new ResizingArrayStack();
+		Stack<Integer> stack = new ResizingArrayStack<Integer>();
 		
 		assertTrue(stack.isEmpty());
 		
